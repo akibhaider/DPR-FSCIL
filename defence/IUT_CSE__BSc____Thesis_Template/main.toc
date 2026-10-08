@@ -1,0 +1,59 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background and Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Challenges}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Contributions}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Thesis Organization}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Related Works}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Few-Shot Class-Incremental Learning}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Frozen FSCIL and Vision-Language Adaptation}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Self-Supervised Visual Features and Transduction}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Prompt-Based Discriminative Supervision and the Motivation for DPR}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Summary}{10}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Problem Setting}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Overview of the Framework}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Multi-Modal Prototypes}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tri-Level Calibration (\textsc {TRiC})}{14}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Level 1: Semantic Calibration}{14}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Level 2: Inter-Model Visual Calibration}{14}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Level 3: Inter-Modal Calibration}{15}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Query Prototype Rectification (QPR)}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Discriminative Prompt-Based Recalibration (DPR)}{16}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Motivation}{17}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Pairwise Discriminative Prompting}{17}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Iterative Recalibration Algorithm}{18}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Termination and Complexity}{20}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Worked Illustrative Example}{21}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Discussion of Design Choices}{21}{subsection.3.6.6}%
+\contentsline {section}{\numberline {3.7}Integration and Overall Pipeline}{22}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Experimental Setup}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Datasets and Protocol}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Implementation Details}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Baselines}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Evaluation Metrics}{24}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Proposed Protocol for DPR}{25}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Main Results}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Component Ablation of \textsc {TRiC}}{29}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Effect of Query Prototype Rectification}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Hyperparameter Sensitivity of QPR}{32}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Alternative Query-Update Rules}{33}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Prediction Entropy and Confidence Calibration}{34}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Structural Observations Motivating the Tri-Level View}{35}{section.5.7}%
+\contentsline {section}{\numberline {5.8}DPR: Design Validation and Expected Impact}{36}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}A Concrete Motivating Case Study}{36}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Expected Behavior and Qualitative Assessment}{37}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Proposed Empirical Validation}{38}{subsection.5.8.3}%
+\contentsline {section}{\numberline {5.9}Discussion and Limitations}{38}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Conclusion}{40}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Contributions}{40}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limitations}{41}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Future Work}{41}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Concluding Remarks}{42}{section.6.4}%
+\contentsline {chapter}{References}{43}{chapter*.22}%
+\contentsline {chapter}{Appendices}{47}{section*.23}%
+\contentsline {chapter}{\numberline {A}Additional Diagnostic Results}{48}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Per-Class Gain Distribution of QPR}{48}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}DINOv2 Geometry Before and After QPR}{49}{section.1.A.2}%
+\contentsline {chapter}{\numberline {B}Notation Reference}{50}{appendix.1.B}%

@@ -1,0 +1,21 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of notation used in the proposed methodology.}}{12}{table.caption.5}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces FSCIL benchmarks used in this thesis. ``Way'' is the number of new classes introduced per incremental session and ``shot'' is the number of labeled images per new class.}}{23}{table.caption.8}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Session-wise comparison on \emph {mini}ImageNet, condensed to the base session ($A_0$), final session ($A_8$), 9-session average, and performance degradation (PD $= A_0 - A_8$). V, L, and V-L denote visual, language, and vision-language modalities. The full nine-session trajectory is plotted in \autoref {fig:sessionacc}(a).}}{27}{table.caption.10}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Full session-wise comparison on CIFAR-100 (nine sessions, $A_0$--$A_8$).}}{28}{table.caption.11}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Full session-wise comparison on CUB-200-2011 (eleven sessions, $A_0$--$A_{10}$).}}{28}{table.caption.12}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Component ablation of \textsc {TRiC} on \emph {mini}ImageNet. The third row (Sem.\ + C-Vis., with no DINOv2 evidence) is structurally equivalent to the BiMC baseline; the bottom row is the full \textsc {TRiC} backbone.}}{29}{table.caption.13}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Effect of adding QPR on top of three calibrated frozen-FSCIL backbones, at the deployed default $(\alpha ,\tau _q,m_{\min }) = (0.75, 0.3, 5)$, decomposed into final-session Full/Base/Novel accuracy. The $\Delta $ rows report the per-column gain over the corresponding pre-QPR row.}}{31}{table.caption.15}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces \textsc {TRiC}-QPR final-session gate diagnostics at the deployed default configuration. Gate purity is the fraction of gated queries whose true class is indeed novel; base leakage is its complement.}}{32}{table.caption.16}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Cross-dataset robustness of the query-mean interpolation weight $\alpha $. Values are 20-seed final-session Full accuracy of \textsc {TRiC}-QPR. Variation is at most $0.25$ points (CIFAR-100), $0.10$ points (\emph {mini}ImageNet), and $0.10$ points (CUB-200).}}{33}{table.caption.18}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces BiMC reference prediction entropy in the final session, reported separately for base and novel classes.}}{35}{table.caption.20}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Structural measurements underlying the tri-level reformulation. CLIP visual prototypes are visually dense; DINOv2 prototypes are an order of magnitude sparser on every dataset. Per-class accuracy correlates negatively with introduction session on CIFAR-100 and \emph {mini}ImageNet, but is essentially uncorrelated on CUB-200.}}{35}{table.caption.21}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Fixed-seed, per-class final-session accuracy change after QPR, decomposed into improved, worsened, and unchanged classes.}}{48}{table.caption.24}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Complete notation reference for \autoref {chapter:proposed}.}}{50}{table.caption.25}%

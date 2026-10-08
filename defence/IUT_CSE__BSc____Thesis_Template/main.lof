@@ -1,0 +1,13 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the two-module training-free FSCIL backbone studied in this thesis. Module~1 performs tri-level modality calibration (textual intra-modal, visual inter-model, and inter-modal calibration); Module~2 performs query prototype rectification, refining only novel DINOv2 prototypes through a precision-favoring gate. The Discriminative Prompt-based Recalibration module proposed in \autoref {sec:dpr} operates upstream of Module~1's textual intra-modal calibration and is not shown here, since it introduces no new images or query-side evidence, only an additional label-only refinement of the semantic prototype pipeline already depicted.}}{13}{figure.caption.6}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Session-wise accuracy on (a) \emph {mini}ImageNet, (b) CIFAR-100, and (c) CUB-200. \textsc {TRiC} and \textsc {TRiC}-QPR dominate every training-free baseline throughout the incremental schedule, not only at the final session.}}{27}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Per-query behavior of \textsc {TRiC}'s inter-modal calibration at base and final sessions. Each stacked bar decomposes correct predictions by how the semantic and calibrated-visual branches voted: all correct (both branches agree and are right), visual recovery (semantic wrong, visual right, \textsc {TRiC} right), semantic recovery (visual wrong, semantic right, \textsc {TRiC} right), and \textsc {TRiC} alone (only the fused decision is right).}}{30}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sensitivity of the three QPR hyperparameters on \emph {mini}ImageNet, varied one at a time around the deployed defaults. All three panels share the same $y$-axis range to make the flatness of each sweep directly comparable.}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Alternative query-update rules on the BiMC ensemble backbone. Bars show final-session Full/Base/Novel mean accuracy over five matched seeds. The conservative gate matches or exceeds hard pseudo-labeling in Full accuracy and avoids the large degradations of the unconstrained transductive update, especially on the fine-grained CUB-200 benchmark.}}{34}{figure.caption.19}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
